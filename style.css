@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f3f4f6;
+}
+
+.app {
+  width: 380px;
+  margin: 90px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 8px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.meter {
+  height: 8px;
+  background: #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+#bar {
+  height: 100%;
+  width: 0;
+  background: red;
+  transition: 0.3s;
+}
+
+ul {
+  margin-top: 15px;
+  font-size: 14px;
+}
